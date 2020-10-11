@@ -1,6 +1,6 @@
 package com.daliborstakic.librarymanagment;
 
-import java.lang.String;
+import java.lang.String; // Importing String
 
 public class Book {
 	public String author, name; // Book author and name fields
