@@ -7,8 +7,9 @@ import java.lang.String; // Importing String
  * @author Dalibor
  */
 public class Book {
-	public String author, name; // Book author and name fields
-	private int numOfPages; // Private attribute
+	public String name; // Book name
+	public Author author; // Book author
+	private int numOfPages; // Private attribute numOfPages
 	
 	/**
 	 * Book constructor
@@ -17,7 +18,7 @@ public class Book {
 	 * @param numOfPages represents number of pages
 	 * @throws Exception if the number of pages is less than 0
 	 */
-	public Book(String author, String name, int numOfPages) throws Exception {
+	public Book(Author author, String name, int numOfPages) throws Exception {
 		this.author = author; // Will change the Author to a separate class
 		this.name = name;
 		
