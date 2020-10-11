@@ -45,8 +45,8 @@ public class Library {
 	public void addBook(Book book) throws Exception {
 		if (book != null) {
 			throw new Exception("Book cannot be null!");
+		} else {
+			this.books.add(book);
 		}
-		
-		this.books.add(book);
 	}
 }
