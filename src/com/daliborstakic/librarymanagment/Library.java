@@ -33,7 +33,7 @@ public class Library {
 	 * Books setter
 	 * @param books represents an ArrayList of "Book" objects
 	 */
-	public void setBooks(ArrayList<Book> books) { // books Setter
+	public void setBooks(ArrayList<Book> books) {
 		this.books = books;
 	}
 	
