@@ -2,6 +2,10 @@ package com.daliborstakic.librarymanagment;
 
 import java.lang.String; // Importing String
 
+/**
+ * Author class
+ * @author daliborstakic
+ */
 public class Author {
 	public String fName; // First name
 	public String lName; // Last name
