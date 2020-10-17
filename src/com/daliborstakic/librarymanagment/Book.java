@@ -61,6 +61,6 @@ public class Book {
 	 * Overrides the toString() method
 	 */
 	@Override public String toString() {
-		return String.format("Book: %s - %s;%s", this.author, this.name, this.publisher);
+		return String.format("%s - %s;%s", this.author, this.name, this.publisher);
 	}
 }
