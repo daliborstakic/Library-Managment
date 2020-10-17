@@ -1,7 +1,6 @@
 package com.daliborstakic.librarymanagment;
 
 import java.lang.String; // Import String object
-import java.util.ArrayList; // Import ArrayList object
 
 /**
  * Publisher class
@@ -9,7 +8,6 @@ import java.util.ArrayList; // Import ArrayList object
  */
 public class Publisher {
 	public String name;
-	private ArrayList<Book> books;
 	
 	/**
 	 * Publisher constructor
