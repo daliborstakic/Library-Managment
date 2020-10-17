@@ -19,33 +19,6 @@ public class Publisher {
 	 */
 	public Publisher(String name, ArrayList<Book> books) throws Exception {
 		this.name = name;
-		
-		if(books == null) {
-			throw new Exception("Books cannot be null!");
-		} else {
-			this.setBooks(books);
-		}
-	}
-	
-	/**
-	 * Books getter
-	 * @return books ArrayList
-	 */
-	public ArrayList<Book> getBooks() {
-		return this.books;
-	}
-	
-	/**
-	 * Books setter
-	 * @param books new books value
-	 * @throws Exception if books are null
-	 */
-	public void setBooks(ArrayList<Book> books) throws Exception {
-		if (books == null) {
-			throw new Exception("Books cannot be null!");
-		} else {
-			this.books = books;
-		}
 	}
 	
 	/**
