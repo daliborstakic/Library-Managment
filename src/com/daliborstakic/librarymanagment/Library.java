@@ -49,4 +49,8 @@ public class Library {
 			this.books.add(book);
 		}
 	}
+	
+	@Override public String toString() {
+		return String.format("%s: %s", this.name, this.books);
+	}
 }
