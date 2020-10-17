@@ -14,10 +14,8 @@ public class Publisher {
 	/**
 	 * Publisher constructor
 	 * @param name Publisher name
-	 * @param books List of books with that publisher
-	 * @throws Exception if books are null
 	 */
-	public Publisher(String name, ArrayList<Book> books) throws Exception {
+	public Publisher(String name) {
 		this.name = name;
 	}
 	
